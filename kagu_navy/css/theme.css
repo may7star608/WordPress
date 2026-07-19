@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+/*Google Fontsの読み込み
+---------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Font Awesomeの読み込み
+---------------------------------------------------------------------------*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css");
+
+/*Phosphor Thinの読み込み
+---------------------------------------------------------------------------*/
+@import url('https://unpkg.com/@phosphor-icons/web@2.1.1/src/light/style.css');
+
+
+/*CSSカスタムプロパティ（サイト全体を一括管理する為の設定）
+---------------------------------------------------------------------------*/
+:root {
+
+	--bg-color: #55606c;							/*主にテンプレートの背景色*/
+	--bg-inverse-color: #fff;						/*上のカラーの「対」として使う色*/
+	--bg-border-color: rgba(255,255,255,0.5);		/*枠線の色。255,255,255,0.5は白の事で0.5は色が50%出た状態。*/
+	--bg-inverse-border-color: #ccc;				/*枠線の色*/
+	
+	--primary-color: #81776f;			/*メインカラー*/
+	--primary-inverse-color: #fff;		/*上のカラーの「対」として使う色*/
+	--primary-border-color: rgba(255,255,255,0.5);	/*枠線の色。255,255,255,0.5は白の事で0.5は色が50%出た状態。*/
+	
+	--light-color: #524e48;				/*薄いカラー*/
+	--light-inverse-color: #fff;		/*上のカラーの「対」として使う色*/
+	--light-border-color: #fff;			/*枠線の色*/
+
+	--accent-color: #da4100;			/*アクセントカラー*/
+	--accent-inverse-color: #fff;		/*上のカラーの「対」として使う色*/
+	--accent-border-color: rgba(255,255,255,0.5);	/*枠線の色。255,255,255は白の事で0.5は色が50%出た状態。*/
+
+	--content-space-l: 7vw;		/*余白の一括管理用。画面幅100% = 100vwです。*/
+	--content-space-s: 2rem;	/*余白の一括管理用。2文字分。*/
+
+	--base-font: "Klee One", "Hiragino Mincho Pro", "ヒラギノ明朝 Pro W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;  /*フォント指定*/
+	--accent-font: "Jost";  		/*アクセント用英語フォント指定*/
+
+}
